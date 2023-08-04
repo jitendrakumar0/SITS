@@ -13,5 +13,57 @@
 .featureSection {
     background: #130c3f;
 }
+.servicesSection {
+    & .serviceSubHeading {
+        font-size: 16px;
+        color: black;
+    }
+    & .nav {
+        & .nav-link {
+            color: black;
+            &.active {
+                color: white;
+            }
+        }
+    }
+    & .tab-content {
+        & .tab-pane {
+            & .title {
+
+            }
+            & .tagline {
+
+            }
+            & .our-services-links {
+                & a {
+                    color:#130c3f;
+                    & i {
+                        font-size: 8px;
+                    }
+                    & span {
+                        font-size: 14px;
+                    }
+                }
+            }
+            & .coreTech {
+                font-weight: bold;
+                color: #130c3f;
+                font-size: 16px;
+            }
+            & .coreTechs {
+                & img {
+                    width: 45px;
+                    height: 45px;
+                    object-fit: contain;
+                }
+                & span {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #130c3f;
+                }
+            }
+        }
+    }
+}
 
 @import "mohit"
