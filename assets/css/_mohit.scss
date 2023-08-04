@@ -5,6 +5,15 @@
     &.ourWorkfab11 {
         background-color: green;
     }
+    & .viewBtn {
+        color: white;
+        // background: yellow;
+        border: 1px solid white;
+        &:hover {
+            color: #f5a12a;
+            border-color: #f5a12a;
+        }
+    }
 }
 .ourWorkfabindia {
     background-color: #b41313;
