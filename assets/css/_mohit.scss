@@ -80,3 +80,14 @@
     }
 }
 
+// mobile app develpment page start
+.mobileApp {
+    & .mobileAppCards {
+        & .appIcon {
+            height: 60px;
+            width: 60px;
+            padding:10px;
+        }
+    }
+}
+// mobile app develpment page end
