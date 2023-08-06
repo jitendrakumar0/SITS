@@ -1,5 +1,93 @@
-.awardSection {
-    & .awardHeading {
-        font-size: 18px;
+.ourWork {
+    // & .workIKmg {
+    //     max-height: 335px;
+    // }
+    &.ourWorkfab11 {
+        background-color: green;
+    }
+    & .viewBtn {
+        color: white;
+        // background: yellow;
+        border: 1px solid white;
+        &:hover {
+            color: #f5a12a;
+            border-color: #f5a12a;
+        }
     }
 }
+.ourWorkfabindia {
+    background-color: #b41313;
+}
+
+@media (max-width:767px) {
+    .ourWork {
+        & .ourworkHeading {
+            font-size: 23px;
+        }
+        // & .headingpara {
+        //     font-size: 15px;
+        // }
+        // & .seeworkBtn {
+        //     font-size: 14px;
+        // }
+        & .workdetailHeading {
+            font-size: 23px;
+        }
+        // & .workdetail {
+        //     font-size: 15px;
+        // }
+        // & .viewBtn {
+        //     font-size: 14px;
+        // }
+        & .ourworkDetail {
+            font-size: 23px;
+        }
+        // & .allworkBtn {
+        //     font-size: 14px;
+        // }
+    }
+}
+
+
+@media (max-width:576px) {
+    .ourWork {
+        & .ourworkHeading {
+            font-size: 22px;
+        }
+        & .headingpara {
+            font-size: 15px;
+        }
+        & .seeworkBtn {
+            font-size: 14px;
+        }
+        & .workdetailHeading {
+            font-size: 22px;
+
+        }
+        & .workdetail {
+            font-size: 15px;
+        }
+        & .viewBtn {
+            font-size: 14px;
+        }
+        & .ourworkDetail {
+            font-size: 22px;
+
+        }
+        & .allworkBtn {
+            font-size: 14px;
+        }
+    }
+}
+
+// mobile app develpment page start
+.mobileApp {
+    & .mobileAppCards {
+        & .appIcon {
+            height: 60px;
+            width: 60px;
+            padding:10px;
+        }
+    }
+}
+// mobile app develpment page end
