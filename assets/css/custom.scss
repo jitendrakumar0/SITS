@@ -13,5 +13,70 @@
 .featureSection {
     background: #130c3f;
 }
+.servicesSection {
+    & .serviceSubHeading {
+        font-size: 16px;
+        color: black;
+    }
+    & .nav {
+        & .nav-link {
+            color: black;
+            &.active {
+                color: white;
+            }
+        }
+    }
+    & .tab-content {
+        & .tab-pane {
+            & .title {
 
-@import "mohit"
+            }
+            & .tagline {
+
+            }
+            & .our-services-links {
+                & a {
+                    color:#130c3f;
+                    & i {
+                        font-size: 8px;
+                    }
+                    & span {
+                        font-size: 14px;
+                    }
+                }
+            }
+            & .coreTech {
+                font-weight: bold;
+                color: #130c3f;
+                font-size: 16px;
+            }
+            & .coreTechs {
+                & img {
+                    width: 45px;
+                    height: 45px;
+                    object-fit: contain;
+                }
+                & span {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #130c3f;
+                }
+            }
+        }
+    }
+}
+.navbar-toggler {
+    & i {
+        color: #858585;
+    }
+}
+.navbar-dark.sticky-header.affix .main-menu li a.nav-link:hover {
+    color:#130c3f !important; 
+}
+.navbar-light.sticky-header .main-menu li a.nav-link:hover {
+    color:#130c3f !important; 
+}
+
+@import "mohit";
+@import "shivtej"
+

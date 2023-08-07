@@ -1,0 +1,180 @@
+.gallaryFluid{
+  
+    & .gallaryBox{
+        & .gallary{
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            &:hover{
+                &::after{
+                    height: 100%;
+                }
+                &::before{
+                    opacity: 5;
+                    top: 50%;
+                }
+                & .cardHeading{
+                   transform: translate(-50%,-50%);
+                   bottom: 30%;
+                }
+            }
+            &::after{
+                content: '';
+                width: 100%;
+                height: 0%;
+                background: linear-gradient(0deg, #0b5a7b 0, rgba(0, 0, 0, 0) 100%)!important;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transition: 0.3s linear;
+                border-radius: 8px;
+            }
+            &::before{
+                transition: 0.3s ease-in-out;
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background: linear-gradient(0deg, #000 0, rgba(255, 255, 255, 0) 100%);
+                height: 130px;
+                opacity: 0.7;
+            }
+            & img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            & .cardHeading{
+                position: absolute;
+                bottom: 0;
+                font-size: 20px;
+                color: #fff;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 20 !important;
+                transition: all 0.3s ease-in-out;
+                white-space: nowrap;
+                
+            }
+        }
+    }
+}
+
+// contact us 
+.countUsScection{
+    & .leftSectionContactus{
+        & .ulStyle{
+            & .ulList{
+                & .mailSection{
+                    & .contact-box{
+                        & .mailHeading{
+                            font-size:12px ;
+                        }
+                        & .mailSubheading{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        & .wilGetSection{
+            & .willGetHeading{
+                font-size: 18px;
+                color: #343a40;
+                letter-spacing: 0.2px;
+            }
+            & ul{
+                & li{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    & .rightSectionContactUs{
+        & .formContact{
+            & .fromSelect{
+                background: none;
+            }
+            & .inputFrom{
+                color: #000;
+                font-size: 16px;
+                font-weight: 500;
+                border:1px solid #000;
+                &::placeholder{
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #000;
+                }
+            }
+
+        }
+    }
+}
+
+// our value 
+.readMoreBtn{
+    background: linear-gradient(180deg, #139ed9, #0f7caa);
+    font-size: 12px;
+    color:white;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background: linear-gradient(180deg, #e09c19, #b27c14);
+        color: white;
+
+    }
+}
+
+.overValueSection{
+    & .card-style{
+        transition: all 0.3s ease-in-out;
+        &:hover{
+             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            & .card-content{
+                & .cardNumber{
+                    color:#139ed9 !important;
+                }
+                & .cardHeading{
+                    color: #e09c19;
+                }
+            }
+
+        }
+        & .card-content{
+            & .card-icon{
+                width: 60px;
+                height: 60px;
+            }
+            & .cardNumber{
+                color: #e09c19;
+                font-size: 45px;
+                transition: all 0.3s ease-in-out;
+                
+            }
+            & .cardHeading{
+                font-size: 25px;
+                color: #139ed9 ;
+                line-height: 35px;
+                font-weight: 700;
+                transition: all 0.3s ease-in-out;
+            }
+            & .pera{
+                color: #5a5454;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+// blogSection start
+
+.blogSection{
+    & .section-heading{
+        & .sectionSubheading{
+            
+        }
+    }
+}
