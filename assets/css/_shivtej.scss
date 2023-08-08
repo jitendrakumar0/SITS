@@ -6,6 +6,7 @@
             height: 200px;
             overflow: hidden;
             position: relative;
+            border-radius: 15px;
             &:hover{
                 &::after{
                     height: 100%;
