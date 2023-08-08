@@ -1,9 +1,12 @@
+$primary: #2fa4de;
+$white: #FFF;
+
 // *** Button Scss ***
 .btn{
     &.outlineBtn {
         &:hover{
-            background: #175cff !important;
-            color: white !important;
+            background: $primary !important;
+            color: $white !important;
         }
     }
 }
