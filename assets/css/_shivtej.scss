@@ -165,7 +165,6 @@
 .ourStory{
     & .storyGridWrapper{
         & .storyGrid{
-
             height: 500px !important;
         }
     
@@ -227,6 +226,14 @@
     }
 }
 
+.ourMission{
+    & .leftSection{
+        & .overmissionImg{
+            width: 300px;
+            height: 300px;
+        }
+    }
+}
 
 
 .progress-images-group,.progress-images-group *,.col-solutions_carousel  ,.col-solutions_carousel  *{ -webkit-transition: all 0.4s ease-in-out;
