@@ -80,6 +80,38 @@ $white: #FFF;
     color:#130c3f !important; 
 }
 
+
+.quoteModal {
+    & .modal-content {
+        & .modalcloseBtn {
+            top: -5px;
+            right: -5px;
+            width: 25px;
+            height: 25px;
+            z-index: 1;
+            
+        }
+        & .modal-body {
+            & .sign-up-in-section  {
+                min-height: unset
+            }
+        }
+    }
+}
+
+.copyright-text {
+    & .footer_copy_nav {
+        & li {
+            & a {
+                font-size: 14px;
+                color: #d9d9d9;
+                font-weight: 500
+            }
+        }
+    }
+}
+
+
 @import "mohit";
 @import "shivtej"
 
