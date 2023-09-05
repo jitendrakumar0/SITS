@@ -228,11 +228,19 @@
 }
 
 .ourMission{
-    & .leftSection{
-        & .overmissionImg{
-            width: 300px;
-            height: 300px;
+& .game-feature-icon{
+    padding: 10px;
+}
+}
+
+// awrdsSection
+.awrdsSection{
+    & .promo-single{
+        & .awardimg{
+            height: 40px;
+            width: auto;
         }
+
     }
 }
 
